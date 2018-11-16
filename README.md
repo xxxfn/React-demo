@@ -21,3 +21,8 @@
   .....
 
   ....
+
+
+一些功能做完了，（login layout） 。就可以发版啦。
+1. git flow release start test  // 发布一个 test版本
+2. 就会给到测试，让他们去测试代码
