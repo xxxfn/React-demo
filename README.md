@@ -8,3 +8,16 @@
     1. feature/xxx
   2. 写你的 xxx 功能的代码  git add . git commit -m ''
   3. 功能完成之后，就可以 finish    git flow feature finish xxx
+
+  ....
+
+
+  ....
+
+
+  ....
+
+
+  .....
+
+  ....
