@@ -26,3 +26,19 @@
 一些功能做完了，（login layout） 。就可以发版啦。
 1. git flow release start test  // 发布一个 test版本
 2. 就会给到测试，让他们去测试代码
+
+
+
+
+版本 里面 包含多个 功能
+
+版本迭代
+
+
+一  -  五         |  一  -  五              | 一   -  五
+版本1研发            版本1 做测试             版本2研发
+（login layout）     （正式上线）             （register, 分页）
+                开会，讨论下个版本要做什么功能
+
+                  git flow release start v1.0
+                  git flow release finish v.10
