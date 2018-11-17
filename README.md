@@ -1,9 +1,36 @@
+# project
+
+# 初始化
+
+create-react-app elm-mzw
+
+# 安装一些依赖
+
+yarn add antd-mobile
+yarn add babel-plugin-import -D
+yarn add react-app-rewired -D
+yarn add node-sass
+yarn add react-transition-group
+yarn add redux
+yarn add react-redux
+yarn add react-router-dom
+yarn add styled-components
+
+
+
+
+
+
+
+
+
+
 # git flow 工作流程
 
-0. 安装 npm install -g git-flow-avh
-1. 初始化， git flow init
-2. 即不要再 master 上也代码，也不要再 develop 写代码
-3. 写的代码需要放在相应的功能分支下。
+1. 安装 npm install -g git-flow-avh
+2. 初始化， git flow init
+3. 即不要再 master 上也代码，也不要再 develop 写代码
+4. 写的代码需要放在相应的功能分支下。
   1. git flow feature start xxx
     1. feature/xxx
   2. 写你的 xxx 功能的代码  git add . git commit -m ''
