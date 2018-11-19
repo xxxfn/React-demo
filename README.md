@@ -17,6 +17,9 @@ yarn add react-router-dom
 yarn add styled-components
 
 
+ redux * react-redux
+
+
 
 
 

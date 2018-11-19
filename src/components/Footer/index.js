@@ -15,7 +15,7 @@ class Footer extends Component {
         <li>
           <NavLink to="/category">
             <i className="iconfont icon-anquan"></i>
-            <span>分类</span>
+            <span>发现</span>
           </NavLink>
         </li>
         <li>
@@ -25,7 +25,7 @@ class Footer extends Component {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/profile">
+          <NavLink to="/user">
             <i className="iconfont icon-Dyanjing"></i>
             <span>我的</span>
           </NavLink>

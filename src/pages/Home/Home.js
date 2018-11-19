@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
-import './Home.scss';
+import { connect } from 'react-redux';
+import HomeUI from './HomeUI';
 
-class Home extends Component {
-  render() {
-    return (
-      <div className="elm-home">
-        首页
-      </div>
-    )
-  }
+const mapStateToProps = ({ Home }) => {
+  return {}
 }
 
-export default Home;
+const mapDispatchToProps = (dispatch) => {
+  return {}
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(HomeUI);
