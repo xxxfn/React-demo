@@ -5,7 +5,6 @@ import { Provider } from 'react-redux';
 
 
 import './styles/base.scss';
-import Footer from './components/Footer';
 
 import Home from './pages/Home/Home';
 import Category from './pages/Category/Category';
@@ -20,7 +19,6 @@ const App = () => {
           <Route path="/category" component={Category} />
           <Route path="/order" component={Order} />
           <Route path="/user" component={User} />
-          <Footer />
         </Fragment>
       </Router>
     </Provider>

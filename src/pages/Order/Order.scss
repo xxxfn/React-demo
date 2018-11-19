@@ -1,3 +1,8 @@
-.elm-home {
-  flex: 1;
+.order{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .elm-home {
+    flex: 1;
+  }
 }
